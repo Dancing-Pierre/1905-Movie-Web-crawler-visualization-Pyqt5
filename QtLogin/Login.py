@@ -148,12 +148,11 @@ class MyWindow(QWidget):
             QMessageBox.information(self, '错误', '请写入空白处', QMessageBox.Yes | QMessageBox.No)
 
     def sign_up_window(self):
-        self.sign_up_win.setWindowIcon(self.icon)
         self.sign_up_win.move(self.x() + 100, self.y() + 100)  # 移动一下注册窗口，以免和之前的重复
         frame = QFrame(self.sign_up_win)
         self.sign_up_win.setWindowFlag(Qt.Dialog)
         frame.resize(1000, 300)
-        frame.move(40, 150)
+        # frame.move(40, 150)
         # 打开注册窗口时，清除原来的信息
         self.password_edit.setText('')
         self.username_edit.setText('')
