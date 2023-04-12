@@ -17,9 +17,9 @@
 
 1、先修改spider.py第15行和Login.py第84行中数据库链接的库名账号密码
 
-![image-1](/img/1.png)
+![image-1](/Img/1.png)
 
-![image-1](/img/2.png)
+![image-1](/Img/2.png)
 
 2、运行spider.py，因为爬虫有设置time.sleep，所以采集速度慢，可以根据自己需求修改。爬取完毕会提醒 **数据全部采集完成**。采集还未完成时请不要运行其他文件。
 
