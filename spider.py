@@ -288,3 +288,4 @@ class Spider:
 if __name__ == "__main__":
     spider = Spider()
     spider.run()
+    print("数据全部采集完成")
